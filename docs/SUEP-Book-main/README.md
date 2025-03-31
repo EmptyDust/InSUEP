@@ -21,7 +21,7 @@
 * 陷阱与机遇
   * 学长的被子
   * [插班生](AdmissionGuide/插班生.md)
-  * 笔能不能买
+  * [常见骗局](AdmissionGuide/usual scam.md)
   * 信用卡
   * 驾校
 * 学生部门

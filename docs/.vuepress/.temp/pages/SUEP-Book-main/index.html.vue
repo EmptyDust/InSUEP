@@ -30,7 +30,7 @@
 <ul>
 <li>学长的被子</li>
 <li><RouteLink to="/SUEP-Book-main/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html">插班生</RouteLink></li>
-<li>笔能不能买</li>
+<li>[常见骗局](AdmissionGuide/usual <a href="http://scam.md" target="_blank" rel="noopener noreferrer">scam.md</a>)</li>
 <li>信用卡</li>
 <li>驾校</li>
 </ul>

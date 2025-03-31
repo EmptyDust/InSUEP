@@ -1,4 +1,4 @@
-import comp from "D:/github/InSUEP/docs/.vuepress/.temp/pages/SUEP-Book-main/HalfCooked/index.html.vue"
+import comp from "D:/InSUEP/docs/.vuepress/.temp/pages/SUEP-Book-main/HalfCooked/index.html.vue"
 const data = JSON.parse("{\"path\":\"/SUEP-Book-main/HalfCooked/\",\"title\":\"Half Cooked\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Half Cooked\",\"article\":false,\"feed\":false,\"sitemap\":false},\"git\":{},\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\"}")
 export { comp, data }
 
