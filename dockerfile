@@ -13,25 +13,25 @@
 # 构建阶段
 FROM node:22-alpine AS builder
 
-# 启用corepack并安装指定yarn版本
+# 启用corepack并安装指定pnpm版本
 RUN corepack enable && \
     npm install -g corepack@v0.29.4 && \
-    corepack install --global yarn@4.1.1
+    corepack install --global pnpm@8.15.0
 
 # 设置工作目录
 WORKDIR /app
 
 # 优先复制包管理相关文件
-COPY package.json yarn.lock .yarnrc.yml ./
+COPY package.json pnpm-lock.yaml ./
 
 # 安装依赖（包含工程依赖）
-RUN yarn install
+RUN pnpm install
 
 # 复制项目文件
 COPY . .
 
 # 执行构建
-RUN yarn build
+RUN pnpm build
 
 # 生产环境阶段
 FROM nginx:alpine

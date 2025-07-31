@@ -2,8 +2,8 @@
 title: 写在前面
 ---
 <p style="text-align: center;">
-    <img src="./static/imgs/logo.png" alt="suep icon" style="width: 70px; height: 70px"> 
-    <img src="./static/imgs/name.png" alt="suep icon" style="height: 70px">
+    <img src="../static/imgs/logo.png" alt="suep icon" style="width: 70px; height: 70px"> 
+    <img src="../static/imgs/name.png" alt="suep icon" style="height: 70px">
 </p>
 <p style="text-align: center;">致所有上海电力大学的学生（曾经、当前、未来）</p>
 

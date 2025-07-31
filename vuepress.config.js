@@ -44,7 +44,7 @@ export default {
       },
       {
         text: "📖 序言",
-        link: "/Preface.md",
+        link: "/序言/Preface.md",
         icon: "book-open",
       },
       {
@@ -78,7 +78,7 @@ export default {
     sidebar: {
       // 首页和序言使用默认结构
       "/": "structure",
-      "/Preface.md": "structure",
+      "/序言/": "structure",
 
       // 新生指南相关页面
       "/新生你好/": "structure",

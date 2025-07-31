@@ -5,7 +5,7 @@
   ![VuePress](https://img.shields.io/badge/VuePress-2.0.0--rc.0-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
   ![Vue](https://img.shields.io/badge/Vue-3.0.0-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
   ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Yarn](https://img.shields.io/badge/Yarn-4.1.1-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
+  ![pnpm](https://img.shields.io/badge/pnpm-8.15.0-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
   [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
   <p>💫 信息共享，让上电更美好 💫</p>
@@ -43,7 +43,7 @@ InSUEP（上海电力大学信息直通车）是一个由上海电力大学学�
 ### 🛠️ 环境要求
 
 - Node.js (推荐 LTS 版本)
-- Yarn 4.1.1 或更高版本
+- pnpm 8.15.0 或更高版本
 
 ### 📥 安装与运行
 
@@ -57,24 +57,24 @@ InSUEP（上海电力大学信息直通车）是一个由上海电力大学学�
 2. **安装依赖**
 
    ```bash
-   yarn install
+   pnpm install
    ```
 
 3. **启动开发服务器**
 
    ```bash
-   yarn dev
+   pnpm dev
    ```
 
 4. **构建生产版本**
 
    ```bash
-   yarn build
+   pnpm build
    ```
 
 5. **部署**
    ```bash
-   yarn deploy
+   pnpm deploy
    ```
 
 ## 📁 项目结构
@@ -119,7 +119,7 @@ InSUEP/
 - **Vue 3**: 前端框架
 - **TypeScript**: 类型安全
 - **SASS**: 样式处理
-- **Yarn**: 包管理
+- **pnpm**: 包管理
 - **Vite**: 构建工具
 
 ### 💻 开发环境设置
@@ -133,7 +133,7 @@ InSUEP/
 ### 📋 环境要求
 
 - Node.js >= 21
-- Yarn >= 4.1.1
+- pnpm >= 8.15.0
 - Vue 3.0.0
 
 ### 🔌 已安装插件
@@ -158,7 +158,7 @@ InSUEP/
 ### ⚠️ 注意事项
 
 - **请将 PR 提交到 `debug` 分支**，而不是 `main` 分支
-- 提交前请确保本地运行 `yarn build` 无错误
+- 提交前请确保本地运行 `pnpm build` 无错误
 - 遵循项目的代码风格和提交规范
 - 更多贡献指南请参阅[开发者文档](/开发须知/开发者文档.md)
 
