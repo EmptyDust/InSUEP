@@ -217,6 +217,9 @@ export default {
 
     // 纯净模式
     pure: false,
+
+    // 主题颜色，仅限深浅切换
+    darkmode: "toggle",
   }),
 
   // 站点配置
