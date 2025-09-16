@@ -14,7 +14,9 @@ date: 2025-08-28
 :::
 
 ::: warning
-请各位同学在游玩steam时，注意兼顾学习和游戏的平衡 大学的时间宝贵，请各位优先锻炼自己的技能与学识，而非将过量的时间花费在虚拟游戏上
+请各位同学在游玩steam时，注意兼顾学习和游戏的平衡，**更不要沉迷于游戏打扰室友休息**
+
+大学的时间宝贵，请各位优先锻炼自己的技能与学识，而非将过量的时间花费在虚拟游戏上
 :::
 
 ## steam是什么
@@ -49,9 +51,15 @@ steam有三大核心的功能：
 
 某种意义上，这挺难的（嗯）
 
-![哪个才是真正的steam？](https://youke1.picui.cn/s1/2025/08/25/68ac6009a4d18.jpg)
+以下哪个才是真正的steam？
+
+![OIP.jpg](https://free.picui.cn/free/2025/09/15/68c79be215fc2.jpg)
 
 steam的官网网址如下：[https://store.steampowered.com/](https://store.steampowered.com/)
+
+**请注意你登陆的的网址中是否有完整的steampowered字符！**
+
+**诸如网址中带有staem、steampowred等错误字符的都为钓鱼网站！**
 
 ::: tip
 **为什么我打不开steam的官网？**
@@ -66,7 +74,7 @@ steam官网的服务器在境外，由于长城防火墙（GFW）的存在，ste
 
 请优先下载steam程序：
 
-![如图](https://youke1.picui.cn/s1/2025/08/26/68ad5b3f0f86d.png)
+![如图](https://free.picui.cn/free/2025/09/15/68c79beae4c64.png)
 
 请点击上图中右上角的`安装steam`按键本地安装steam
 
@@ -80,7 +88,7 @@ steam官网的服务器在境外，由于长城防火墙（GFW）的存在，ste
 ::: details mac端
 
 对于mac用户，请点击`安装steam`下方的苹果图标
-![点击图中被红笔圈出的部分](https://youke1.picui.cn/s1/2025/08/26/68ad69d2512f3.png)
+![点击图中被圈起来的部分](https://free.picui.cn/free/2025/09/15/68c79bebae85f.png)
 打开`"steam.dmg"`文件。此时会弹出一个窗口，显示steam应用程序的图标，将steam图标拖动到“应用程序”文件夹中，以完成安装。
 顺带一提：mac上能运行的游戏非常少，还是建议使用windows
 :::
@@ -146,7 +154,7 @@ steam官网的服务器在境外，由于长城防火墙（GFW）的存在，ste
 一般各位同学会遇到的问题因人而异，此处会列举一些常见的问题以及其解决的思路
 
 ::: details 请断开VPN或代理
-![请断开 VPN 或代理的连接并重试。（引用 ID：10815800643383720）](https://youke1.picui.cn/s1/2025/08/26/68ad8fa76db28.png)
+![请断开vpn或代理的连接并重试](https://free.picui.cn/free/2025/09/15/68c79bec13b9a.png)
 接下来解释一下这个问题的成因：
 
 steam不认可通过VPN（虚拟专用网(Virtual Private Network)）来转移ip地址注册别的地区的账号的行为（因为不同地区的游戏定价不同，过去的土耳其区的游戏价格极低，土耳其用户数量甚至多余土耳其的真实人口），因此在steam会通过后台测试你是否在通过vpn访问他的服务器，vpn和加速器的效果相似，都能转移ip地址，但内部的实现原理并不相同
@@ -181,7 +189,7 @@ steam不认可通过VPN（虚拟专用网(Virtual Private Network)）来转移ip
 :::
 
 ::: details 您对CAPTCHA的响应似乎无效。请在下方重新验证您不是机器人
-![难道我真的是机器人？](https://youke1.picui.cn/s1/2025/08/27/68aed6856c232.jpg)
+![难道我真的是机器人？](https://free.picui.cn/free/2025/09/15/68c79be239c63.jpg)
 
 笔者大量搜索后尚未发现对此问题较为稳定的解决方法，似乎是由于CAPTCHA人机验证服务本身不太稳定导致的，建议多试几次，或者尝试更换加速器节点
 
@@ -189,7 +197,7 @@ steam不认可通过VPN（虚拟专用网(Virtual Private Network)）来转移ip
 
 ::: details 请输入有效的电子邮箱地址
 
-![你是人吗你就点](https://youke1.picui.cn/s1/2025/08/27/68aed9b749f1a.png)
+![你是人吗你就点](https://free.picui.cn/free/2025/09/15/68c79bec8e6bb.png)
 ~~把那个我是人取消掉就行了~~
 
 请仔细检查你的电子邮箱拼写，并确定输对了没有
@@ -406,21 +414,21 @@ psps：请给各位同学适量购买，买了就要玩（\o/\o/\o/\o/)，不要
 
 虽然v社为steam账号的防盗设定了双重验证，但道高一丈，魔高一丈，盗号者仍有手段
 
-以下列举一些极为常见的诈骗案例（超级常见于cs2玩家，由于其饰品非常值钱）：
+以下列举一些极为常见的诈骗案例（超级常见于cs2玩家和dota玩家，由于其饰品非常值钱）：
 
 ~~骗你的，不打也会收到~~
 
 - 好友聊天型：广撒网，脚本操作，最易识破
 
 ::: details 是的，这是一份礼物
-![是的，这是一份礼物](https://youke1.picui.cn/s1/2025/08/28/68af2c85a775b.jpg)
+![是的，这是一份礼物.jpg](https://free.picui.cn/free/2025/09/15/68c79beeaef93.jpg)
 点进去便是一个与steam网站非常相像的网站，难以分辨，然后你便往里面输入你的账号密码
 然后？你号没了
 :::
 
 ::: details 请为我们的战队投票
-![请为我们的战队投票.jpg](https://youke1.picui.cn/s1/2025/08/28/68af2db40fa64.jpg)
-![投票就发刀.jpg](https://youke1.picui.cn/s1/2025/08/28/68af2db4a4719.jpg)
+![请为我们的战队投票.jpg](https://free.picui.cn/free/2025/09/15/68c79becc6bd6.jpg)
+![投票就发刀.jpg](https://free.picui.cn/free/2025/09/15/68c79befc13c9.jpg)
 是的xd，是的，投票就送刀
 
 几千的东西随便送，上去一看：steam登录
@@ -429,24 +437,24 @@ psps：请给各位同学适量购买，买了就要玩（\o/\o/\o/\o/)，不要
 :::
 
 ::: details 你的这份饰品能卖几万块
-![能帮我看看饰品模板吗.jpg](https://youke1.picui.cn/s1/2025/08/28/68af2db4cf1f8.jpg)
-![你的饰品很值钱，能登陆一下吗.jpg](https://youke1.picui.cn/s1/2025/08/28/68af2db4d6eed.jpg)
+![能帮我看看饰品模板吗.jpg](https://free.picui.cn/free/2025/09/15/68c79be86b44e.jpg)
+![你的饰品很值钱，能登陆一下吗.jpg](https://free.picui.cn/free/2025/09/15/68c79be9a2837.jpg)
 是的xd，是的，你1分钱买的地下水的模板超级之前，只要用steam登陆这个网站，检测以下饰品就能拿几万块
 
 登上去账密一输，你号没了
 :::
 
 ::: details 你中大奖了
-![xd你中大奖了.jpg](https://youke1.picui.cn/s1/2025/08/28/68af35ae42bff.jpg)
+![xd你中大奖了.jpg](https://free.picui.cn/free/2025/09/15/68c79be2e2667.jpg)
 是的xd，是的，nobody给你报名了抽奖，然后你luckly抽中了，点进去一个用steam登陆的网站
 
 账密一输，你号没了
 :::
 
 ::: details 好xd给你发礼物了
-![我还有僵尸.jpg](https://youke1.picui.cn/s1/2025/08/28/68af35ae483ce.jpg)
-![好xd我送你礼品卡怎么不领啊.jpg](https://youke1.picui.cn/s1/2025/08/28/68af35ae543a0.jpg)
-你是失散多年的好xd想你了，给你发了个网站让你上去领礼品卡，点进去一个用steam登陆的网站
+![我还有僵尸.jpg](https://free.picui.cn/free/2025/09/15/68c79bf2df9f6.jpg)
+![好xd我送你礼品卡怎么不领啊.jpg](https://free.picui.cn/free/2025/09/15/68c79be7d764c.jpg)
+你失散多年的好xd想你了，给你发了个网站让你上去领礼品卡，点进去一个用steam登陆的网站
 
 账密一输，你号没了
 
@@ -456,19 +464,19 @@ psps：请给各位同学适量购买，买了就要玩（\o/\o/\o/\o/)，不要
 :::
 
 ::: details 俄罗斯妹子加我欸
-![xd我喜欢你.jpg](https://youke1.picui.cn/s1/2025/08/28/68af35ae4720d.jpg)
-![xd我喜欢你1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af388d5a10c.jpg)
-![xd我喜欢你2.jpg](https://youke1.picui.cn/s1/2025/08/28/68af388d4396f.jpg)
-![xd我喜欢你3.jpg](https://youke1.picui.cn/s1/2025/08/28/68af388b1b4ce.jpg)
-![xd我喜欢你4.jpg](https://youke1.picui.cn/s1/2025/08/28/68af388d0e12b.jpg)
-![xd我喜欢你5.jpg](https://youke1.picui.cn/s1/2025/08/28/68af388d3a06c.jpg)
+![xd我喜欢你.jpg](https://free.picui.cn/free/2025/09/15/68c79be3ce739.jpg)
+![xd我喜欢你1.jpg](https://free.picui.cn/free/2025/09/15/68c79be4bbfd0.jpg)
+![xd我喜欢你2.jpg](https://free.picui.cn/free/2025/09/15/68c79be55e33b.jpg)
+![xd我喜欢你3.jpg](https://free.picui.cn/free/2025/09/15/68c79be54d413.jpg)
+![xd我喜欢你4.jpg](https://free.picui.cn/free/2025/09/15/68c79be5de6c0.jpg)
+![xd我喜欢你5.jpg](https://free.picui.cn/free/2025/09/15/68c79be6a22d5.jpg)
 是的xd，是的，有毛妹加你了，她绝对不是骗子，是你打个游戏不小心散发了你强大的雄性荷尔蒙，顺着网线过去被远在俄罗斯的她闻到并且深深爱上了你，千万要相信她啊，她一定要跟你来一场轰轰烈烈的跨国恋，你两结婚生子走向人生巅峰
 :::
 
 ::: details 嘿，把我的刀还我
-![我东西在你哪？1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af3a891d076.jpg)
-![我东西在你哪？2.jpg](https://youke1.picui.cn/s1/2025/08/28/68af3a893a2df.jpg)
-![我东西在你哪？3.jpg](https://youke1.picui.cn/s1/2025/08/28/68af3a88c898d.jpg)
+![我东西在你哪？1.jpg](https://free.picui.cn/free/2025/09/15/68c79bf2cf3ee.jpg)
+![我东西在你哪？2.jpg](https://free.picui.cn/free/2025/09/15/68c79bf2d07d6.jpg)
+![我东西在你哪？3.jpg](https://free.picui.cn/free/2025/09/15/68c79bf2e1fcd.jpg)
 嘿，xd，你动不动就举报我的日子结束啦。
 
 把我的刀给我！
@@ -497,23 +505,23 @@ psps：请给各位同学适量购买，买了就要玩（\o/\o/\o/\o/)，不要
 :::
 
 ::: details steam发邮件跟我说我号被异地登陆了
-![邮件型1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af4ee2d9627.jpg)
-![邮件型2.png](https://youke1.picui.cn/s1/2025/08/28/68af4ee345a24.png)
+![邮件型1.jpg](https://free.picui.cn/free/2025/09/15/68c79bf70104e.jpg)
+![邮件型2.png](https://free.picui.cn/free/2025/09/15/68c79bf76042f.png)
 这种属于是邮箱暴露了，然后被广撒网了，邮件里的链接根本不是通向steam的
 :::
 
-- 号其实已经丢了一半型：账密早已泄露，争夺另一半控制权或直接洗钱
-![你被我封了1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af3a8939969.jpg)
-![你被我封了2.jpg](https://youke1.picui.cn/s1/2025/08/28/68af3a895219d.jpg)
+::: details 号其实已经丢了一半型：账密早已泄露，争夺另一半控制权或直接洗钱
+![你被我封了1.jpg](https://free.picui.cn/free/2025/09/15/68c79be89ebdc.jpg)
+![你被我封了2.jpg](https://free.picui.cn/free/2025/09/15/68c79be92f0cc.jpg)
 这里不开玩笑，请注意：**steam的客服绝对绝对不会通过好友聊天的方式告知你任何信息**
 
 别被骗子用这种方式骗了，好友列表里绝对不可能有客服。但是如果他能在你不知晓的情况下（你确认没有收到过好友邀请），便成为你的好友，其实你的steam账密已经泄露了，接下来他会诱导你去取消steam令牌以获得你的steam账户的完整控制权。请从手机steam取消所有的登录凭证，并卸载重装steam（并不知晓本地steam是否被修改）
 :::
 
 ::: details 突然收到几k余额
-![三角洲.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b2cc8b1.jpg)
-![三角洲1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b2de905.jpg)
-![三角洲2.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b2a6690.jpg)
+![三角洲.jpg](https://free.picui.cn/free/2025/09/15/68c79beddcabf.jpg)
+![三角洲1.jpg](https://free.picui.cn/free/2025/09/15/68c79bee60441.jpg)
+![三角洲2.jpg](https://free.picui.cn/free/2025/09/15/68c79bee751a2.jpg)
 此案例来源于小黑盒的帖子：<https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=0d5970725dd4>
 
 贴主的steam账户突然收到了3000余额（账密早已泄露导致的），盗号者企图通过他的账号和三角洲内部交易系统洗走通过盗刷银行卡获利的钱，但steam擅长秋后算账，若在日后被查获，贴主的账号必上交易红（封禁交易，余额锁死）
@@ -523,7 +531,7 @@ psps：请给各位同学适量购买，买了就要玩（\o/\o/\o/\o/)，不要
 
 - 病毒型：远程客服辅以本地病毒
 ::: details steam游戏无法启动，“客服”要求转移饰品
-![你号没了.jpg](https://youke1.picui.cn/s1/2025/08/28/68af47eb46e1d.jpg)
+![你号没了.jpg](https://free.picui.cn/free/2025/09/15/68c79be9c4ca8.jpg)
 此案例为笔者身边朋友碰到的，照片只留了这一张。
 
 他遇到的情况是：steam所有好友被删除，本地客户端所有游戏无法打开，弹窗提示steam功能受限，要求与**好友列表中的客服**联系，由于笔者的朋友具有一定的防骗意识，直接把“steam客服”删了（非常正确），我们尚不得知客服想执行哪些操作来取走其饰品（笔者还挺好奇的）
@@ -539,10 +547,10 @@ ps：此种诈骗手段在最新版本的steam交易撤回规则中已不适用
 
 绝对不要在能确定的steam官网之外登录你的steam账户，若不慎登录，**请立刻在steam app的steam令牌界面取消所有已授权设备的登录**，亦或者**更改你的steam密码**，最后的手段是**撤销你的steam令牌，使得账户进入15天交易冷却**。别认为手握steam令牌便能让自己的账户安然无恙，诈骗分子仍然可以通过威胁你打钱不然给你的账号上红锁（执行非常明显的违规行为使得steam封禁你的账号）等方式敲诈钱财，更详细的方法请看下图
 ::: details 应急手段一图流
-![应急1.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b24f6ce.jpg)
-![应急2.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b2cb548.jpg)
-![应急3.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b702dca.jpg)
-![应急4.jpg](https://youke1.picui.cn/s1/2025/08/28/68af55b744a3a.jpg)
+![应急1.jpg](https://free.picui.cn/free/2025/09/15/68c79bf4e0f39.jpg)
+![应急2.jpg](https://free.picui.cn/free/2025/09/15/68c79bf5394fe.jpg)
+![应急3.jpg](https://free.picui.cn/free/2025/09/15/68c79bf5b1880.jpg)
+![应急4.jpg](https://free.picui.cn/free/2025/09/15/68c79bf6128f4.jpg)
 :::
 
 ### 防诈要点
@@ -550,15 +558,23 @@ ps：此种诈骗手段在最新版本的steam交易撤回规则中已不适用
 归纳一下要点：
 
 1. 不要在不可信的平台上登录你的steam账号（特别是steam列表里的好友发的）
-2. 使用别的网站上的“steam账户”登录功能时请仔细观察网站是否为正确的steam网址
+2. 警惕一切需要通过steam账号登录的网站
 3. 不要在网吧里登录高价值的steam账号（非得登录尽量使用steam app里自带的扫码登录功能，并在结束时在steam令牌的页面里取消已授权设备的登录）
 4. 不要加陌生好友（杜绝被发诈骗网址的机会）
-5. 不要贪小便宜
+5. 不要贪小便宜。陌生人绝对不会平白无故送你高价值物品
 6. 谨慎与“外国人”交流（99%是骗子）
 7. steam客服绝不会在任何情况下通过好友列表联系你
 8. 请注意保留你注册steam时的初始邮箱与第一笔消费记录，这是能在真正的steam客服面前证明你的身份的唯一方式；反之亦然，也不要轻易将如此重要的证据交给他人
 9. 电脑上请谨慎使用软件，结合了病毒的诈骗是最难防范的（进入点对点的诈骗模式了）
 10. 被加好友时会显示该角色与你的`共同好友个数` 若有一两个可以去询问对方好友加你的意图 若没有这里建议直接拒绝 是`最便捷的防诈骗/骗子方式` <del>除了好友被盗号 这是真没招了</del>
+
+## 关于steam账号交易
+
+请注意steam账号不可交易！v社不认可任何玩家间的账号交易，更不要在某宝、某鱼等平台上购置所谓的低价格高价值账号，**被找回时绝对无从胜诉**（因为v社只看重初始注册邮箱以及第一笔消费记录）
+
+## 关于steam的常态代理设置
+
+steam的常态代理可进入steam的`大屏幕模式`后，设置中的`互联网`项配置（如果你自己拥有海外服务器端口的话），注意配置后下载游戏也会经过海外服务器转发（速度变慢、大量消耗流量），请斟酌配置
 
 ## 结语
 
