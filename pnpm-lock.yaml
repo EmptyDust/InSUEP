@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^0.16.22
     version: 0.16.22
   mermaid:
-    specifier: ^11.10.0
-    version: 11.10.0
+    specifier: ^11.12.2
+    version: 11.12.2
   rimraf:
     specifier: ^6.0.1
     version: 6.0.1
@@ -51,7 +51,7 @@ devDependencies:
     version: 2.0.0-rc.94(markdown-it@14.1.0)(sass-embedded@1.89.2)(vuepress@2.0.0-rc.24)
   vuepress-theme-hope:
     specifier: ^2.0.0-rc.24
-    version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.10.0)(sass-embedded@1.89.2)(vuepress@2.0.0-rc.24)
+    version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.12.2)(sass-embedded@1.89.2)(vuepress@2.0.0-rc.24)
 
 packages:
 
@@ -60,10 +60,6 @@ packages:
     dependencies:
       package-manager-detector: 1.6.0
       tinyexec: 1.0.2
-    dev: true
-
-  /@antfu/utils@8.1.1:
-    resolution: {integrity: sha512-Mex9nXf9vR6AhcXmMrlz/HVgYYZpVGJ6YlPgwl7UnaFpnshXs6EK/oa5Gpf3CzENMjkvEx2tQtntGnb7UtSTOQ==}
     dev: true
 
   /@babel/helper-string-parser@7.27.1:
@@ -334,19 +330,12 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
-  /@iconify/utils@2.3.0:
-    resolution: {integrity: sha512-GmQ78prtwYW6EtzXRU1rY+KwOKfz32PD7iJh6Iyqw68GiKuoZ2A6pRtzWONz5VQJbp50mEjXh/7NkumtrAgRKA==}
+  /@iconify/utils@3.1.0:
+    resolution: {integrity: sha512-Zlzem1ZXhI1iHeeERabLNzBHdOa4VhQbqAcOQaMKuTuyZCpwKbC2R4Dd0Zo3g9EAc+Y4fiarO8HIHRAth7+skw==}
     dependencies:
       '@antfu/install-pkg': 1.1.0
-      '@antfu/utils': 8.1.1
       '@iconify/types': 2.0.0
-      debug: 4.4.3
-      globals: 15.15.0
-      kolorist: 1.8.0
-      local-pkg: 1.1.2
       mlly: 1.8.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@isaacs/balanced-match@4.0.1:
@@ -1659,7 +1648,7 @@ packages:
       - typescript
     dev: true
 
-  /@vuepress/plugin-markdown-chart@2.0.0-rc.112(markdown-it@14.1.0)(mermaid@11.10.0)(vuepress@2.0.0-rc.24):
+  /@vuepress/plugin-markdown-chart@2.0.0-rc.112(markdown-it@14.1.0)(mermaid@11.12.2)(vuepress@2.0.0-rc.24):
     resolution: {integrity: sha512-mvmtYKSwD9m5B0ElrLHhqlwudkJbKtz9NstS5CmZ2exFOBkOGQBDeE9kbZGf2vUxHYbCZQQzjqAJB2bIIb+VZA==}
     peerDependencies:
       chart.js: ^4.4.7
@@ -1690,7 +1679,7 @@ packages:
       '@mdit/plugin-plantuml': 0.22.2(markdown-it@14.1.0)
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.24)
       '@vueuse/core': 13.6.0(vue@3.5.18)
-      mermaid: 11.10.0
+      mermaid: 11.12.2
       vue: 3.5.18
       vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24)(vue@3.5.18)
     transitivePeerDependencies:
@@ -2330,10 +2319,6 @@ packages:
     resolution: {integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==}
     dev: true
 
-  /confbox@0.2.2:
-    resolution: {integrity: sha512-1NB+BKqhtNipMsov4xI/NnhCKp9XG9NamYp5PVm9klAT0fsrNPjaFICsCFhNhwZJKNh7zB/3q8qXz0E9oaMNtQ==}
-    dev: true
-
   /connect-history-api-fallback@2.0.0:
     resolution: {integrity: sha512-U73+6lQFmfiNPrYbXqr6kZ1i1wiRqXnp2nhMsINseWXO8lDau0LGEffJ8kQi4EjLZympVgRdvqjAgiZ1tgzDDA==}
     engines: {node: '>=0.8'}
@@ -2680,8 +2665,8 @@ packages:
       d3-zoom: 3.0.0
     dev: true
 
-  /dagre-d3-es@7.0.11:
-    resolution: {integrity: sha512-tvlJLyQf834SylNKax8Wkzco/1ias1OPw8DcUMDE7oUIoSEW25riQVuiu/0OWEFqT0cxHT3Pa9/D82Jr47IONw==}
+  /dagre-d3-es@7.0.13:
+    resolution: {integrity: sha512-efEhnxpSuwpYOKRm/L5KbqoZmNNukHa/Flty4Wp62JRvgH2ojwVgPgdYyr4twpieZnyRDdIH7PY2mopX26+j2Q==}
     dependencies:
       d3: 7.9.0
       lodash-es: 4.17.23
@@ -2855,10 +2840,6 @@ packages:
   /estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
-  /exsolve@1.0.8:
-    resolution: {integrity: sha512-LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==}
-    dev: true
-
   /extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
@@ -3006,11 +2987,6 @@ packages:
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.0
-    dev: true
-
-  /globals@15.15.0:
-    resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
-    engines: {node: '>=18'}
     dev: true
 
   /globby@11.1.0:
@@ -3268,10 +3244,6 @@ packages:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
 
-  /kolorist@1.8.0:
-    resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
-    dev: true
-
   /langium@3.3.1:
     resolution: {integrity: sha512-QJv/h939gDpvT+9SiLVlY7tZC3xB2qK57v0J04Sh9wpMb6MP1q8gB21L3WIo8T5P1MSMg3Ep14L7KkDCFG3y4w==}
     engines: {node: '>=16.0.0'}
@@ -3320,15 +3292,6 @@ packages:
       '@lit/reactive-element': 2.1.1
       lit-element: 4.2.1
       lit-html: 3.3.1
-    dev: true
-
-  /local-pkg@1.1.2:
-    resolution: {integrity: sha512-arhlxbFRmoQHl33a0Zkle/YWlmNwoyt6QNZEIJcqNbdrsix5Lvc4HyyI3EnwxTYlZYc32EbYrQ8SzEZ7dqgg9A==}
-    engines: {node: '>=14'}
-    dependencies:
-      mlly: 1.8.0
-      pkg-types: 2.3.0
-      quansync: 0.2.11
     dev: true
 
   /locate-path@5.0.0:
@@ -3420,11 +3383,11 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==, tarball: https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz}
     engines: {node: '>= 8'}
 
-  /mermaid@11.10.0:
-    resolution: {integrity: sha512-oQsFzPBy9xlpnGxUqLbVY8pvknLlsNIJ0NWwi8SUJjhbP1IT0E0o1lfhU4iYV3ubpy+xkzkaOyDUQMn06vQElQ==}
+  /mermaid@11.12.2:
+    resolution: {integrity: sha512-n34QPDPEKmaeCG4WDMGy0OT6PSyxKCfy2pJgShP+Qow2KLrvWjclwbc3yXfSIf4BanqWEhQEpngWwNp/XhZt6w==}
     dependencies:
       '@braintree/sanitize-url': 7.1.2
-      '@iconify/utils': 2.3.0
+      '@iconify/utils': 3.1.0
       '@mermaid-js/parser': 0.6.3
       '@types/d3': 7.4.3
       cytoscape: 3.33.1
@@ -3432,7 +3395,7 @@ packages:
       cytoscape-fcose: 2.2.0(cytoscape@3.33.1)
       d3: 7.9.0
       d3-sankey: 0.12.3
-      dagre-d3-es: 7.0.11
+      dagre-d3-es: 7.0.13
       dayjs: 1.11.19
       dompurify: 3.3.1
       katex: 0.16.22
@@ -3443,8 +3406,6 @@ packages:
       stylis: 4.3.6
       ts-dedent: 2.2.0
       uuid: 11.1.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /micromark-util-character@2.1.1:
@@ -3683,14 +3644,6 @@ packages:
       pathe: 2.0.3
     dev: true
 
-  /pkg-types@2.3.0:
-    resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
-    dependencies:
-      confbox: 0.2.2
-      exsolve: 1.0.8
-      pathe: 2.0.3
-    dev: true
-
   /pngjs@5.0.0:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
@@ -3755,10 +3708,6 @@ packages:
       dijkstrajs: 1.0.3
       pngjs: 5.0.0
       yargs: 15.4.1
-    dev: true
-
-  /quansync@0.2.11:
-    resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
     dev: true
 
   /queue-microtask@1.2.3:
@@ -4606,7 +4555,7 @@ packages:
     transitivePeerDependencies:
       - typescript
 
-  /vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.10.0)(sass-embedded@1.89.2)(vuepress@2.0.0-rc.24):
+  /vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.12.2)(sass-embedded@1.89.2)(vuepress@2.0.0-rc.24):
     resolution: {integrity: sha512-FA35vxdUY3tk1ORDSCTTozttoTNSmdCTms3v7871vUFeKmQ+MY+iCFGDVMeoCEcuCMGJ7F0+bcCUkH3ohFcdgQ==}
     engines: {node: '>= 20.6.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -4666,7 +4615,7 @@ packages:
       '@vuepress/plugin-git': 2.0.0-rc.112(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-icon': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-links-check': 2.0.0-rc.112(vuepress@2.0.0-rc.24)
-      '@vuepress/plugin-markdown-chart': 2.0.0-rc.112(markdown-it@14.1.0)(mermaid@11.10.0)(vuepress@2.0.0-rc.24)
+      '@vuepress/plugin-markdown-chart': 2.0.0-rc.112(markdown-it@14.1.0)(mermaid@11.12.2)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-ext': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-hint': 2.0.0-rc.112(markdown-it@14.1.0)(vue@3.5.18)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-image': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24)
