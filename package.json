@@ -20,7 +20,7 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.24",
     "@vuepress/plugin-search": "^2.0.0-rc.24",
     "gh-pages": "^6.3.0",
-    "katex": "^0.16.22",
+    "katex": "^0.16.28",
     "mermaid": "^11.12.2",
     "rimraf": "^6.0.1",
     "sass-embedded": "^1.97.3",
