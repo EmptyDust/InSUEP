@@ -67,7 +67,7 @@ jobs:
           echo "Deploying to $BRANCH_NAME"
 
       - name: deploy file to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        uses: wlixcc/SFTP-Deploy-Action@v1.2
         with:
           username: "emptydust" #ssh user name
           server: "${{ secrets.SERVER_IP }}"
