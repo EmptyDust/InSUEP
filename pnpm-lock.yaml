@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node22':
-    specifier: ^22.0.0
-    version: 22.0.2
+    specifier: ^22.0.5
+    version: 22.0.5
   '@types/node':
     specifier: ^24.1.0
     version: 24.1.0
@@ -1001,8 +1001,8 @@ packages:
     resolution: {integrity: sha512-DFQGANNkEZRzFk1/rDP6TcFdM82ycHE+zfl9C/M/jXlH68jiqHWHFMQURLELoD8koxvu/eW5uhg94NSAZlYrUQ==}
     dev: true
 
-  /@tsconfig/node22@22.0.2:
-    resolution: {integrity: sha512-Kmwj4u8sDRDrMYRoN9FDEcXD8UpBSaPQQ24Gz+Gamqfm7xxn+GBR7ge/Z7pK8OXNGyUzbSwJj+TH6B+DS/epyA==}
+  /@tsconfig/node22@22.0.5:
+    resolution: {integrity: sha512-hLf2ld+sYN/BtOJjHUWOk568dvjFQkHnLNa6zce25GIH+vxKfvTgm3qpaH6ToF5tu/NN0IH66s+Bb5wElHrLcw==}
     dev: true
 
   /@types/d3-array@3.2.2:
