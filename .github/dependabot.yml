@@ -1,0 +1,29 @@
+version: 2
+updates:
+  # 1. 自动更新 Node.js 依赖 (pnpm)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily" # 每天检查一次更新
+    open-pull-requests-limit: 10 # 限制最多同时开启 10 个 PR
+    labels:
+      - "dependencies"
+      - "javascript"
+
+  # 2. 自动更新 Dockerfile 中的基础镜像
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly" # 每周检查一次
+    labels:
+      - "dependencies"
+      - "docker"
+
+  # 3. 自动更新 GitHub Actions 的版本
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
