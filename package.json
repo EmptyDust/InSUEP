@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^14.2.0",
-    "vue": "^3.4.0",
+    "vue": "^3.5.28",
     "vuepress-shared": "2.0.0-rc.94"
   },
   "devDependencies": {
