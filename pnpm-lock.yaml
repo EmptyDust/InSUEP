@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vueuse/core':
-    specifier: ^14.2.0
-    version: 14.2.0(vue@3.5.18)
+    specifier: ^14.2.1
+    version: 14.2.1(vue@3.5.18)
   vue:
     specifier: ^3.4.0
     version: 3.5.18
@@ -2150,22 +2150,22 @@ packages:
       '@vueuse/shared': 13.9.0(vue@3.5.18)
       vue: 3.5.18
 
-  /@vueuse/core@14.2.0(vue@3.5.18):
-    resolution: {integrity: sha512-tpjzVl7KCQNVd/qcaCE9XbejL38V6KJAEq/tVXj7mDPtl6JtzmUdnXelSS+ULRkkrDgzYVK7EerQJvd2jR794Q==}
+  /@vueuse/core@14.2.1(vue@3.5.18):
+    resolution: {integrity: sha512-3vwDzV+GDUNpdegRY6kzpLm4Igptq+GA0QkJ3W61Iv27YWwW/ufSlOfgQIpN6FZRMG0mkaz4gglJRtq5SeJyIQ==}
     peerDependencies:
       vue: ^3.5.0
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 14.2.0
-      '@vueuse/shared': 14.2.0(vue@3.5.18)
+      '@vueuse/metadata': 14.2.1
+      '@vueuse/shared': 14.2.1(vue@3.5.18)
       vue: 3.5.18
     dev: false
 
   /@vueuse/metadata@13.9.0:
     resolution: {integrity: sha512-1AFRvuiGphfF7yWixZa0KwjYH8ulyjDCC0aFgrGRz8+P4kvDFSdXLVfTk5xAN9wEuD1J6z4/myMoYbnHoX07zg==}
 
-  /@vueuse/metadata@14.2.0:
-    resolution: {integrity: sha512-i3axTGjU8b13FtyR4Keeama+43iD+BwX9C2TmzBVKqjSHArF03hjkp2SBZ1m72Jk2UtrX0aYCugBq2R1fhkuAQ==}
+  /@vueuse/metadata@14.2.1:
+    resolution: {integrity: sha512-1ButlVtj5Sb/HDtIy1HFr1VqCP4G6Ypqt5MAo0lCgjokrk2mvQKsK2uuy0vqu/Ks+sHfuHo0B9Y9jn9xKdjZsw==}
     dev: false
 
   /@vueuse/shared@13.9.0(vue@3.5.18):
@@ -2175,8 +2175,8 @@ packages:
     dependencies:
       vue: 3.5.18
 
-  /@vueuse/shared@14.2.0(vue@3.5.18):
-    resolution: {integrity: sha512-Z0bmluZTlAXgUcJ4uAFaML16JcD8V0QG00Db3quR642I99JXIDRa2MI2LGxiLVhcBjVnL1jOzIvT5TT2lqJlkA==}
+  /@vueuse/shared@14.2.1(vue@3.5.18):
+    resolution: {integrity: sha512-shTJncjV9JTI4oVNyF1FQonetYAiTBd+Qj7cY89SWbXSkx7gyhrgtEdF2ZAVWS1S3SHlaROO6F2IesJxQEkZBw==}
     peerDependencies:
       vue: ^3.5.0
     dependencies:
