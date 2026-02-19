@@ -10,7 +10,7 @@
     "clean-dist": "rimraf docs/.vuepress/dist"
   },
   "dependencies": {
-    "@vueuse/core": "^14.2.0",
+    "@vueuse/core": "^14.2.1",
     "vue": "^3.4.0",
     "vuepress-shared": "2.0.0-rc.94"
   },
