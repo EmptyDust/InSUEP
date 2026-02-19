@@ -20,11 +20,11 @@ devDependencies:
     specifier: ^22.0.5
     version: 22.0.5
   '@types/node':
-    specifier: ^25.1.0
-    version: 25.1.0
+    specifier: ^25.2.3
+    version: 25.2.3
   '@vuepress/bundler-vite':
     specifier: ^2.0.0-rc.24
-    version: 2.0.0-rc.24(@types/node@25.1.0)(sass-embedded@1.97.3)
+    version: 2.0.0-rc.24(@types/node@25.2.3)(sass-embedded@1.97.3)
   '@vuepress/plugin-search':
     specifier: ^2.0.0-rc.24
     version: 2.0.0-rc.112(vuepress@2.0.0-rc.24)
@@ -1313,7 +1313,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 25.1.0
+      '@types/node': 25.2.3
 
   /@types/geojson@7946.0.16:
     resolution: {integrity: sha512-6C8nqWur3j98U6+lXDfTUWIfgvZU+EumvpHKcYjujKH7woYyLj2sUmff0tRhrqM7BohUw7Pz3ZB1jj2gW9Fvmg==}
@@ -1331,7 +1331,7 @@ packages:
   /@types/jsonfile@6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 25.1.0
+      '@types/node': 25.2.3
 
   /@types/linkify-it@5.0.0:
     resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
@@ -1363,15 +1363,15 @@ packages:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
-  /@types/node@25.1.0:
-    resolution: {integrity: sha512-t7frlewr6+cbx+9Ohpl0NOTKXZNV9xHRmNOvql47BFJKcEG1CxtxlPEEe+gR9uhVWM4DwhnvTF110mIL4yP9RA==}
+  /@types/node@25.2.3:
+    resolution: {integrity: sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ==}
     dependencies:
       undici-types: 7.16.0
 
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 25.1.0
+      '@types/node': 25.2.3
     dev: true
 
   /@types/trusted-types@2.0.7:
@@ -1397,7 +1397,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
-      vite: 7.0.8(@types/node@25.1.0)(sass-embedded@1.97.3)
+      vite: 7.0.8(@types/node@25.2.3)(sass-embedded@1.97.3)
       vue: 3.5.18
 
   /@vue/compiler-core@3.5.18:
@@ -1489,7 +1489,7 @@ packages:
   /@vue/shared@3.5.18:
     resolution: {integrity: sha512-cZy8Dq+uuIXbxCZpuLd2GJdeSO/lIzIspC2WtkqIpje5QyFbvLaI5wZtdUjLHjGZrlVX6GilejatWwVYYRc8tA==}
 
-  /@vuepress/bundler-vite@2.0.0-rc.24(@types/node@25.1.0)(sass-embedded@1.97.3):
+  /@vuepress/bundler-vite@2.0.0-rc.24(@types/node@25.2.3)(sass-embedded@1.97.3):
     resolution: {integrity: sha512-prgT3f6xOBC43rhfvzlfXY0wJKsI+oV5RC4s0YyVPZ0s5VQKI3RRD1aY+euiVFPks3Mjx+DxEtKBOLsJ7I6crA==}
     dependencies:
       '@vitejs/plugin-vue': 6.0.1(vite@7.0.8)(vue@3.5.18)
@@ -1503,7 +1503,7 @@ packages:
       postcss: 8.5.6
       postcss-load-config: 6.0.1(postcss@8.5.6)
       rollup: 4.46.2
-      vite: 7.0.8(@types/node@25.1.0)(sass-embedded@1.97.3)
+      vite: 7.0.8(@types/node@25.2.3)(sass-embedded@1.97.3)
       vue: 3.5.18
       vue-router: 4.5.1(vue@3.5.18)
     transitivePeerDependencies:
@@ -4452,7 +4452,7 @@ packages:
       vfile-message: 4.0.3
     dev: true
 
-  /vite@7.0.8(@types/node@25.1.0)(sass-embedded@1.97.3):
+  /vite@7.0.8(@types/node@25.2.3)(sass-embedded@1.97.3):
     resolution: {integrity: sha512-cJBdq0/u+8rgstg9t7UkBilf8ipLmeXJO30NxD5HAHOivnj10ocV8YtR/XBvd2wQpN3TmcaxNKaHX3tN7o5F5A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -4492,7 +4492,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 25.1.0
+      '@types/node': 25.2.3
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
       picomatch: 4.0.3
@@ -4787,7 +4787,7 @@ packages:
       '@vuepress/bundler-webpack':
         optional: true
     dependencies:
-      '@vuepress/bundler-vite': 2.0.0-rc.24(@types/node@25.1.0)(sass-embedded@1.97.3)
+      '@vuepress/bundler-vite': 2.0.0-rc.24(@types/node@25.2.3)(sass-embedded@1.97.3)
       '@vuepress/cli': 2.0.0-rc.24
       '@vuepress/client': 2.0.0-rc.24
       '@vuepress/core': 2.0.0-rc.24
