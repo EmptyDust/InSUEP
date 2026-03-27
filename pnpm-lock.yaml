@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^6.3.0
     version: 6.3.0
   katex:
-    specifier: ^0.16.37
-    version: 0.16.37
+    specifier: ^0.16.44
+    version: 0.16.44
   mermaid:
     specifier: ^11.13.0
     version: 11.13.0
@@ -51,7 +51,7 @@ devDependencies:
     version: 2.0.0-rc.94(markdown-it@14.1.1)(sass-embedded@1.97.3)(vuepress@2.0.0-rc.24)
   vuepress-theme-hope:
     specifier: ^2.0.0-rc.24
-    version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.37)(markdown-it@14.1.1)(mermaid@11.13.0)(sass-embedded@1.97.3)(vuepress@2.0.0-rc.24)
+    version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.44)(markdown-it@14.1.1)(mermaid@11.13.0)(sass-embedded@1.97.3)(vuepress@2.0.0-rc.24)
 
 packages:
 
@@ -573,7 +573,7 @@ packages:
       upath: 2.0.1
     dev: true
 
-  /@mdit/plugin-katex-slim@0.23.1(katex@0.16.37)(markdown-it@14.1.1):
+  /@mdit/plugin-katex-slim@0.23.1(katex@0.16.44)(markdown-it@14.1.1):
     resolution: {integrity: sha512-oNao/gmUrtNSCFffGhCPWxZ9UHR2jpbB+GRXB7UQabl9ijIV6LZgUM3vjSda1c47s7c7ac+9P0J/GYaxC1GHFA==}
     engines: {node: '>= 18'}
     peerDependencies:
@@ -588,7 +588,7 @@ packages:
       '@mdit/helper': 0.22.1(markdown-it@14.1.1)
       '@mdit/plugin-tex': 0.22.1(markdown-it@14.1.1)
       '@types/markdown-it': 14.1.2
-      katex: 0.16.37
+      katex: 0.16.44
       markdown-it: 14.1.1
     dev: true
 
@@ -879,7 +879,7 @@ packages:
       detect-libc: 2.1.2
       is-glob: 4.0.3
       node-addon-api: 7.1.1
-      picomatch: 4.0.3
+      picomatch: 4.0.4
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.5.6
       '@parcel/watcher-darwin-arm64': 2.5.6
@@ -1899,7 +1899,7 @@ packages:
       - typescript
     dev: true
 
-  /@vuepress/plugin-markdown-math@2.0.0-rc.112(katex@0.16.37)(markdown-it@14.1.1)(vuepress@2.0.0-rc.24):
+  /@vuepress/plugin-markdown-math@2.0.0-rc.112(katex@0.16.44)(markdown-it@14.1.1)(vuepress@2.0.0-rc.24):
     resolution: {integrity: sha512-ZsIT3UKokslL+NUrdV5xTaOfuqEn41ZIlIL4PfCCgCpvUap/ziHbpQizU3sVgciq88mDsYYteVqgBqXcQzNiig==}
     peerDependencies:
       katex: ^0.16.21
@@ -1911,11 +1911,11 @@ packages:
       mathjax-full:
         optional: true
     dependencies:
-      '@mdit/plugin-katex-slim': 0.23.1(katex@0.16.37)(markdown-it@14.1.1)
+      '@mdit/plugin-katex-slim': 0.23.1(katex@0.16.44)(markdown-it@14.1.1)
       '@mdit/plugin-mathjax-slim': 0.23.1(markdown-it@14.1.1)
       '@types/markdown-it': 14.1.2
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.24)
-      katex: 0.16.37
+      katex: 0.16.44
       vue: 3.5.29
       vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24)(vue@3.5.29)
     transitivePeerDependencies:
@@ -2240,7 +2240,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.1
+      picomatch: 2.3.2
 
   /arg@5.0.2:
     resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
@@ -3368,8 +3368,8 @@ packages:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  /katex@0.16.37:
-    resolution: {integrity: sha512-TIGjO2cCGYono+uUzgkE7RFF329mLLWGuHUlSr6cwIVj9O8f0VQZ783rsanmJpFUo32vvtj7XT04NGRPh+SZFg==}
+  /katex@0.16.44:
+    resolution: {integrity: sha512-EkxoDTk8ufHqHlf9QxGwcxeLkWRR3iOuYfRpfORgYfqc8s13bgb+YtRY59NK5ZpRaCwq1kqA6a5lpX8C/eLphQ==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -3534,7 +3534,7 @@ packages:
       dagre-d3-es: 7.0.14
       dayjs: 1.11.19
       dompurify: 3.3.3
-      katex: 0.16.37
+      katex: 0.16.44
       khroma: 2.1.0
       lodash-es: 4.17.23
       marked: 16.4.2
@@ -3576,7 +3576,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.3
-      picomatch: 2.3.1
+      picomatch: 2.3.2
 
   /mimic-function@5.0.1:
     resolution: {integrity: sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA==}
@@ -3757,13 +3757,19 @@ packages:
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  /picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+  /picomatch@2.3.2:
+    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
   /picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
+
+  /picomatch@4.0.4:
+    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+    engines: {node: '>=12'}
+    requiresBuild: true
+    optional: true
 
   /pkg-dir@4.2.0:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==, tarball: https://registry.npmmirror.com/pkg-dir/-/pkg-dir-4.2.0.tgz}
@@ -3853,7 +3859,7 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
     dependencies:
-      picomatch: 2.3.1
+      picomatch: 2.3.2
 
   /readdirp@4.1.2:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
@@ -4697,7 +4703,7 @@ packages:
     transitivePeerDependencies:
       - typescript
 
-  /vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.37)(markdown-it@14.1.1)(mermaid@11.13.0)(sass-embedded@1.97.3)(vuepress@2.0.0-rc.24):
+  /vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112)(katex@0.16.44)(markdown-it@14.1.1)(mermaid@11.13.0)(sass-embedded@1.97.3)(vuepress@2.0.0-rc.24):
     resolution: {integrity: sha512-FA35vxdUY3tk1ORDSCTTozttoTNSmdCTms3v7871vUFeKmQ+MY+iCFGDVMeoCEcuCMGJ7F0+bcCUkH3ohFcdgQ==}
     engines: {node: '>= 20.6.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -4762,7 +4768,7 @@ packages:
       '@vuepress/plugin-markdown-hint': 2.0.0-rc.112(markdown-it@14.1.1)(vue@3.5.29)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-image': 2.0.0-rc.112(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-include': 2.0.0-rc.112(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
-      '@vuepress/plugin-markdown-math': 2.0.0-rc.112(katex@0.16.37)(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
+      '@vuepress/plugin-markdown-math': 2.0.0-rc.112(katex@0.16.44)(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-preview': 2.0.0-rc.112(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-stylize': 2.0.0-rc.112(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
       '@vuepress/plugin-markdown-tab': 2.0.0-rc.112(markdown-it@14.1.1)(vuepress@2.0.0-rc.24)
